@@ -4,7 +4,7 @@ $(document).ready(function(e){
 		$('#sonar').tap(function(){
 			navigator.notification.beep(2);
 		});//cierre del beep
-		$('#vibrar').tap(function(){
+		$('#vibrar1').tap(function(){
 			navigator.notification.vibrate(2000);
 		});//cierre del vibrate
 	},false);//cierra el deviceready
